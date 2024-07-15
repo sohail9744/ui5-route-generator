@@ -8,7 +8,7 @@ module.exports = (viewName) => {
                 <Text text="Welcome to SAPUI5 Development!" textAlign="Center" />
                 <Text text="Enjoy the coding journey!" textAlign="Center" />
                 <Text text="We always help each other to contribute and grow together." textAlign="Center" />
-                <Link text="Github Link: https://github.com/Open-Interface-Library/ui5-route-generator" href="https://github.com/Open-Interface-Library/ui5-route-generator" />
+                <Link text="Github Link: https://github.com/sohail9744/ui5-route-generator" href="https://github.com/sohail9744/ui5-route-generator" />
                 <Text text="Quote of the day - The strong man is not the one who can overpower others, but the strong man is the one who controls himself when he is angry." textAlign="Center" />
             </VBox>
         </content>
