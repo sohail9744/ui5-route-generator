@@ -1,0 +1,44 @@
+{
+  "name": "ui5-route-generator",
+  "version": "2.0.3",
+  "description": "This will help you in ui5 frame work to create routings, fragments",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "postinstall": "node ./scripts/postinstall.js",
+    "build": "webpack",
+    "pretest": "npm run build",
+    "test": "node ./dist/bundle.js",
+    "dev": "node ./src/index.js"
+  },
+  "keywords": [
+    "ui5",
+    "sapui5",
+    "BAS",
+    "ui5-router",
+    "sap",
+    "UI5 Fragment Setup",
+    "UI5 Fragment generator",
+    "routing generator UI5"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sohail9744/ui5-route-generator"
+  },
+  "homepage": "https://github.com/sohail9744/ui5-route-generator#readme",
+  "author": "Mohammad Sohail Khan",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "prompts": "^2.4.2"
+  },
+  "bin": {
+    "ui5-route-generator": "node ./dist/bundle.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
